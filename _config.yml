@@ -87,15 +87,14 @@ content:
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    content1:
+    content:
       - layout: left
         title: University of Cagliari
         caption: 2019 - 2022
         sub_title: BSc Computer Science
         description: | # this will include new lines to allow paragraphs
           Gained a strong foundation in core concepts of informatics, including programming, algorithms, and software engineering.
-    
-    content2:
+          
       - layout: left
         title: University of Pisa
         caption: 2022 - 2024
