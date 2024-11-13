@@ -95,11 +95,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Gained a strong foundation in core concepts of informatics, including programming, algorithms, and software engineering.
           
-          GPA: 4.0/4.0 with Honors (110/110 cum laude).
+          **GPA**: 4.0/4.0 with Honors (110/110 cum laude).
           
-          Coursework: Programming, Algorithms, Data Structures, Software Engineering, Computer Architecture, Mathematical Analysis, Operating Systems, Databases, Web Technologies, and more.
+          **Coursework**: Programming, Algorithms, Data Structures, Software Engineering, Computer Architecture, Mathematical Analysis, Operating Systems, Databases, Web Technologies, and more.
 
-          Thesis: An Approach to Domain Generalization in the Field of Re-Identification.
+          **Thesis**: *An Approach to Domain Generalization in the Field of Re-Identification*.
 
 
       - layout: left
@@ -109,11 +109,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Specialized in Artificial Intelligence, focusing on advanced topics like machine learning, deep learning, and data mining.
 
-          GPA: 4.0/4.0 with Honors (110/110 cum laude).
+          **GPA**: 4.0/4.0 with Honors (110/110 cum laude).
           
-          Coursework: Machine Learning, Intelligent System for Pattern Recognition (Signal Processing, Generative Models, Deep Learning), Data Mining, Distributed and Parallel Systems, Startup Building, Smart Applications, Computation Mathematics for Learning and Data Analysis, Continual Learning, Human Languages Technologies, Information Retrieval, and more.
+          **Coursework**: Machine Learning, Intelligent System for Pattern Recognition (Signal Processing, Generative Models, Deep Learning), Data Mining, Distributed and Parallel Systems, Startup Building, Smart Applications, Computation Mathematics for Learning and Data Analysis, Continual Learning, Human Languages Technologies, Information Retrieval, and more.
 
-          Thesis: Lifelong Evolutionary Swarms.
+          **Thesis**: *Lifelong Evolutionary Swarms*.
 
 
 
@@ -121,11 +121,11 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in Computer Science and Artificial Intelligence some of my other interests and hobbies are:
-      - Sports: Played basketball on a team for several years, enjoy casual tennis, and recently started playing padel.
-      - Outdoor Activities: Mainly hiking, with some occasional climbing.
-      - Painting: Enjoy painting landscapes in an impressionist style, primarily using oil colors.
-      - Music: Started with violin as a child, moved on to drumming and beat production, and now enjoy exploring new music as a listener.
-      - Always excited to do new experiences and learn new things!
+      - **Sports**: Played basketball on a team for several years, enjoy casual tennis, and recently started playing padel.
+      - **Outdoor Activities**: Mainly hiking, with some occasional climbing.
+      - **Painting**: Enjoy painting landscapes in an impressionist style, primarily using oil colors.
+      - **Music**: Started with violin as a child, moved on to drumming and beat production, and now enjoy exploring new music as a listener.
+      - **Always excited to do new experiences and learn new things**!
 
 # Footer
 footer_show_references: true
