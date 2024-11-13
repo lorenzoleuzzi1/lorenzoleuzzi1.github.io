@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: images/ai_icon.png
 
 # Content configuration version
 version: 2
@@ -48,7 +48,7 @@ linkedin_username: lorenzo-leuzzi-8415432b4
 # about_title: About Me
 about_profile_image: images/io.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. Explore my projects to see how I combine technical skills with research and creative problem-solving.
+  Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.
 
 
 content:
@@ -95,12 +95,27 @@ content:
         description: | # this will include new lines to allow paragraphs
           Gained a strong foundation in core concepts of informatics, including programming, algorithms, and software engineering.
           
+          GPA: 4.0/4.0 with Honors (110/110 cum laude).
+          
+          Coursework: Programming, Algorithms, Data Structures, Software Engineering, Computer Architecture, Mathematical Analysis, Operating Systems, Databases, Web Technologies, and more.
+
+          Thesis: An Approach to Domain Generalization in the Field of Re-Identification.
+
+
       - layout: left
         title: University of Pisa
         caption: 2022 - 2024
         sub_title: MSc Computer Science (AI)
         description: | # this will include new lines to allow paragraphs
           Specialized in Artificial Intelligence, focusing on advanced topics like machine learning, deep learning, and data mining.
+
+          GPA: 4.0/4.0 with Honors (110/110 cum laude).
+          
+          Coursework: Machine Learning, Intelligent System for Pattern Recognition (Signal Processing, Generative Models, Deep Learning), Data Mining, Distributed and Parallel Systems, Startup Building, Smart Applications, Computation Mathematics for Learning and Data Analysis, Continual Learning, Human Languages Technologies, Information Retrieval, and more.
+
+          Thesis: Lifelong Evolutionary Swarms.
+
+
 
   - title: A Little More About Me
     layout: text
