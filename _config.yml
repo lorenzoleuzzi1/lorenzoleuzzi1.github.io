@@ -22,7 +22,7 @@ github_username:  lorenzoleuzzi1
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: lorenzo.leu
-linkedin_username: https://www.linkedin.com/in/lorenzo-leuzzi-8415432b4/
+linkedin_username: lorenzo-leuzzi-8415432b4
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -87,29 +87,31 @@ content:
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    content1:
       - layout: left
         title: University of Cagliari
         caption: 2019 - 2022
         sub_title: BSc Computer Science
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-        # I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Gained a strong foundation in core concepts of informatics, including programming, algorithms, and software engineering.
+    
+    content2:
+      - layout: left
+        title: University of Pisa
+        caption: 2022 - 2024
+        sub_title: MSc Computer Science (AI)
+        description: | # this will include new lines to allow paragraphs
+          Specialized in Artificial Intelligence, focusing on advanced topics like machine learning, deep learning, and data mining.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in Computer Science and Artificial Intelligence some of my other interests and hobbies are:
+      - Sports: Played basketball on a team for several years, enjoy casual tennis, and recently started playing padel.
+      - Outdoor Activities: Mainly hiking, with some occasional climbing.
+      - Painting: Enjoy painting landscapes in an impressionist style, primarily using oil colors.
+      - Music: Started with violin as a child, moved on to drumming and beat production, and now enjoy exploring new music as a listener.
+      - Always excited to do new experiences and learn new things!
 
 # Footer
 footer_show_references: true
