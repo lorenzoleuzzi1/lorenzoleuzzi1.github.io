@@ -70,7 +70,8 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           Artificial intelligence is evolving from fixed-instruction systems to adaptive agents capable of autonomous learning and decision-making. Inspired by nature, swarm intelligence—modeled on the collective behaviors of insects like ants and bees—enables flexible, scalable, and resilient multi-agent systems. By applying evolutionary principles, these swarms can iteratively improve their performance and adapt to challenging environments. This project integrates lifelong learning into evolutionary swarm robotics, equipping swarms to learn continuously and retain valuable knowledge over time. Using regularization techniques within evolutionary algorithms, this work explores how swarms can adapt to dynamic tasks without forgetting previous skills, pushing the boundaries of autonomous, adaptable AI.
-        image: images/les_framwork.jpg
+        # add image to the project
+        image: images/les_framework.png
   
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
