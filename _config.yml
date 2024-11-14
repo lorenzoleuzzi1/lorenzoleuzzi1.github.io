@@ -82,9 +82,9 @@ content:
         caption: Sept 2017 - June 2018
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+        description: | # this will include new lines to allow paragraphs
+          Participated in an international exchange program at Swanville High School in Minnesota, USA, where I developed strong cross-cultural communication skills and adaptability. This experience strengthened my English proficiency and broadened my perspective by engaging with diverse peers in a new academic and cultural environment.
+      
       - layout: left
         title: Erasmus+ Student (BSc)
         # link: boringcompany.com
@@ -93,20 +93,20 @@ content:
         caption: Sept 2021 - Feb 2022
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        description: | # this will include new lines to allow paragraphs
+          Studied as an Erasmus+ exchange student in the Bachelor's Informatics program at the International University of Struga in North Macedonia. This experience enhanced my adaptability and teamwork skills within a multicultural environment, providing me with new perspectives on informatics and expanding my understanding of international academic approaches.      
       
       - layout: left
         title: Curricular Traineeship
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Simaz – Lab. Di Ruberto @ University of Cagliari, Italy
+        sub_title: Simaz – Lab. Di Ruberto, University of Cagliari, Italy
         caption: Sept 2021 - Feb 2022
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+        description: | # this will include new lines to allow paragraphs
+          Applied deep learning techniques to develop a GAN-based augmented dataset for person re-identification. This practical project focused on making the model more robust to camera variations, enhancing its performance and reliability across diverse settings. This hands-on experience strengthened my technical skills in deep learning and dataset augmentation for real-world applications."
+      
       - layout: left
         title: Erasmus+ Student (MSc)
         # link: boringcompany.com
@@ -115,8 +115,8 @@ content:
         caption: Sept 2023 - Feb 2024
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        description: | # this will include new lines to allow paragraphs
+          Studied as an Erasmus+ student in the AI Master’s program at Universidad Politécnica de Madrid, one of Europe’s top universities for technology and engineering. This experience deepened my expertise in Artificial Intelligence through advanced coursework and collaborative projects, allowing me to explore cutting-edge research and practical applications alongside an international cohort.
 
       - layout: left
         title: Swarm Robotics Intern
@@ -126,9 +126,9 @@ content:
         caption: Aug 2024 - Sept 2024
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        # description: | # this will include new lines to allow paragraphs
-        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+        description: | # this will include new lines to allow paragraphs
+          Interned at the Bristol Robotics Laboratory, UK, where I contributed to the EMERGE project focused on developing collective swarm intelligence. During this experience, I gained hands-on skills in swarm robotics, working on system integration, algorithm development, and sensor data processing. Collaborating closely with a research team, I strengthened my technical and collaborative skills within one of Europe’s leading robotics research environments.  
+  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
