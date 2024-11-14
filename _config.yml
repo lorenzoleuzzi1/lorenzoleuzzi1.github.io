@@ -57,20 +57,21 @@ content:
     content:
       - layout: top-middle
         title: Lifelong Evolutionary Swarms
-        link: github.com/sproogen
+        link: https://github.com/lorenzoleuzzi1/lifelong_evolutionary_swarms
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          Artificial intelligence is evolving from fixed-instruction systems to adaptive agents capable of autonomous learning and decision-making. Inspired by nature, swarm intelligence—modeled on the collective behaviors of insects like ants and bees—enables flexible, scalable, and resilient multi-agent systems. By applying evolutionary principles, these swarms can iteratively improve their performance and adapt to challenging environments. This project integrates lifelong learning into evolutionary swarm robotics, equipping swarms to learn continuously and retain valuable knowledge over time. Using regularization techniques within evolutionary algorithms, this work explores how swarms can adapt to dynamic tasks without forgetting previous skills, pushing the boundaries of autonomous, adaptable AI.
+        image: images/les_framwork.jpg
+  
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
