@@ -163,8 +163,60 @@ content:
 
           Through experimental evaluations, the advanced version of the algorithm demonstrates enhanced efficiency across various matrix sizes, density levels, and constraint settings, showcasing its robustness in optimizing complex convex problems and consistently achieving accelerated sublinear convergence rates in real-world scenarios.
 
+      - layout: top-middle
+        title: Neural Network from Scratch
+        link: https://github.com/lorenzoleuzzi1/ml-project
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/ml.png" alt="ml" style="width:50%; max-width:400px; margin: 10px; float: left;">
 
-  
+          This project focused on designing a neural network model from scratch as a foundational library to solve complex tasks in the ML class competition. We implemented a fully connected, feed-forward neural network, developing core components such as various Gradient Descent algorithms, loss functions, activation functions, and learning rate schedules. Through a detailed hyperparameter tuning process using coarse-to-fine grid searches and k-fold cross-validation, we optimized the model’s performance. The final solution was an ensemble of the ten best-performing configurations, achieving enhanced accuracy and generalization across classification and regression tasks. This project underscored the principles of neural network architecture, model selection, and ensemble learning for robust machine learning applications.
+
+      - layout: top-middle
+        title: Model-Agnostic Meta-Learning for Reinforcement Learning
+        link: https://github.com/lorenzoleuzzi1/maml_rl
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/maml.png" alt="maml" style="width:50%; max-width:400px; margin: 10px; float: left;">
+
+          This project implements Model-Agnostic Meta-Learning (MAML) for Reinforcement Learning (RL), designed to enable rapid adaptation to new tasks with minimal training data. MAML’s meta-learning approach is particularly suited for reinforcement learning, as it allows agents to quickly adjust to changing environments. Using the vanilla policy gradient method (REINFORCE) as the base algorithm, we applied MAML to three control task environments: CartPole, Acrobot, and Highway.
+
+      - layout: top-middle
+        title: Library System for Local High School
+        link: https://github.com/lorenzoleuzzi1/libreria_comodato_d_uso
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/lib.png" alt="lib" style="width:50%; max-width:400px; margin: 10px; float: left;">
+
+          This project involved designing and implementing a custom library management system for a local high school with over 500 students. By carefully understanding the school's specific needs, I developed a tailored solution that streamlined book tracking, lending, and inventory management.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
