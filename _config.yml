@@ -96,11 +96,11 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/hlt.png" alt="LLM" style="width:50%; max-width:400px; margin: 10px; float: left;">
+          <img src="images/hlt.png" alt="LLM" style="width:60%; max-width:400px; margin: 10px; float: left;">
 
           In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.
 
-          We enhanced the BERT-family models by integrating lexical features and demographic data of the essay writers, as well as using Masked Language Modeling to improve sequence classification. This iterative, multi-model approach allowed our system to effectively capture nuanced emotional and empathetic content, achieving competitive results in empathy and emotion prediction.
+          BERT-family models were enhanced by integrating lexical features and demographic data of the essay writers, as well as using Masked Language Modeling to improve sequence classification. This iterative, multi-model approach allowed our system to effectively capture nuanced emotional and empathetic content, achieving competitive results in empathy and emotion prediction.
 
       - layout: top-middle
         title: An Approach to Domain Generalization in the Field of Re-Identification
@@ -121,6 +121,48 @@ content:
           This project tackles the challenge of person re-identification across varied camera styles, a task critical in applications like intelligent surveillance. Re-identifying an individual across multiple cameras is difficult due to differing camera settings, lighting conditions, and backgrounds, which can obscure or alter essential features.
 
           To address these issues, I developed a solution based on Generative Adversarial Networks (GANs), specifically using CycleGAN and CamStyle architectures. These models perform image-to-image translation, producing synthetic images that adapt to different camera styles without altering individual identity. The process enriches the training dataset with varied representations, allowing re-identification models to generalize across unseen camera conditions. Experimental results indicate that this approach improves model robustness and reduces sensitivity to cross-camera variations, advancing the field of domain generalization in re-identification tasks.
+
+      - layout: top-middle
+        title: NBA2K Dataset Analysis
+        link: https://github.com/lorenzoleuzzi1/unipi/blob/main/erasmus_madrid/datamining-report.pdf
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this project, the NBA2K dataset was analyzed to explore the relationships between in-game player ratings and real-life NBA statistics. Using data from several NBA seasons, the analysis aimed to understand how NBA2K ratings correlate with actual player performance, focusing on key metrics like points, rebounds, assists, and defensive stats. The project included descriptive, diagnostic, and predictive analyses, culminating in the development of models to forecast NBA2K ratings based on player statistics. Techniques such as clustering, linear regression, and decision trees were applied to identify patterns in player performance, team strength, and player archetypes. This project provides valuable insights for applications in player scouting, game development, and data-driven decision-making in sports analytics.
+
+          <div style="overflow: auto;">
+              <img src="images/nba2.png" alt="nba2" style="width:45%; max-width:400px; margin: 10px; float: left;">
+              <img src="images/nba1.png" alt="nba1" style="width:45%; max-width:400px; margin: 10px; float: left;">
+          </div>
+      
+      - layout: top-middle
+        title: Solutions for the Convex Quadratic Knapsack Problem Leveraging a Frank-Wolfe-based Algorithm
+        link: https://github.com/nicolapitzalis/Quadratic_Knapsack_FW
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/fw.png" alt="fw" style="width:50%; max-width:400px; margin: 10px; float: left;">
+
+          This project explores an application of Frank-Wolfe-based algorithms to solve the convex quadratic knapsack problem—a constrained optimization challenge. The problem involves minimizing a quadratic objective function under box constraints and an inequality constraint, representing real-world limitations like resource allocation and budget constraints. By leveraging the Frank-Wolfe algorithm and its advanced variants, such as Away-Step and Pairwise Frank-Wolfe, this work develops efficient iterative methods that maintain computational feasibility in high-dimensional spaces.
+
+          Through experimental evaluations, the advanced version of the algorithm demonstrates enhanced efficiency across various matrix sizes, density levels, and constraint settings, showcasing its robustness in optimizing complex convex problems and consistently achieving accelerated sublinear convergence rates in real-world scenarios.
+
 
   
   - title: Experience # Title for the section
