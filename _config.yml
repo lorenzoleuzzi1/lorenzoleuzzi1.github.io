@@ -48,6 +48,8 @@ linkedin_username: lorenzo-leuzzi-8415432b4
 about_title: About Me
 about_profile_image: images/io.jpeg
 about_content: | # this will include new lines to allow paragraphs
+  
+  
   Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.
 
 
@@ -79,6 +81,47 @@ content:
 
         # add image to the project
         # image: images/les_framework.png
+
+      - layout: top-middle
+        title: WASSA 2023 Shared Task challenge on Empathy Detection, Emotion Classification, and Personality Detection in Interactions
+        link: https://github.com/HLT-Ghisolfi-Leuzzi-Testa/WASSA-2023
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/hlt.png" alt="LLM" style="width:50%; max-width:400px; margin: 10px; float: left;">
+
+          In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.
+
+          We enhanced the BERT-family models by integrating lexical features and demographic data of the essay writers, as well as using Masked Language Modeling to improve sequence classification. This iterative, multi-model approach allowed our system to effectively capture nuanced emotional and empathetic content, achieving competitive results in empathy and emotion prediction.
+
+      - layout: top-middle
+        title: An Approach to Domain Generalization in the Field of Re-Identification
+        link: https://github.com/lorenzoleuzzi1/CamStyle
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          <img src="images/reid.png" alt="reid" style="width:50%; max-width:400px; margin: 10px; float: left;">
+
+          This project tackles the challenge of person re-identification across varied camera styles, a task critical in applications like intelligent surveillance. Re-identifying an individual across multiple cameras is difficult due to differing camera settings, lighting conditions, and backgrounds, which can obscure or alter essential features.
+
+          To address these issues, I developed a solution based on Generative Adversarial Networks (GANs), specifically using CycleGAN and CamStyle architectures. These models perform image-to-image translation, producing synthetic images that adapt to different camera styles without altering individual identity. The process enriches the training dataset with varied representations, allowing re-identification models to generalize across unseen camera conditions. Experimental results indicate that this approach improves model robustness and reduces sensitivity to cross-camera variations, advancing the field of domain generalization in re-identification tasks.
+
   
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
