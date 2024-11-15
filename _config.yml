@@ -122,12 +122,14 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/reid.png" alt="reid" style="width:50%; max-width:400px; margin: 10px; float: left;">
+          <div style="display: flex; align-items: center; gap: 20px;">  
+              <img src="images/reid.png" alt="reid" style="width:50%; max-width:400px; margin: 15px; float: left;">
+                <div>
+                  <p>This project tackles the challenge of person re-identification across varied camera styles, a task critical in applications like intelligent surveillance. Re-identifying an individual across multiple cameras is difficult due to differing camera settings, lighting conditions, and backgrounds, which can obscure or alter essential features. </p>
 
-          This project tackles the challenge of person re-identification across varied camera styles, a task critical in applications like intelligent surveillance. Re-identifying an individual across multiple cameras is difficult due to differing camera settings, lighting conditions, and backgrounds, which can obscure or alter essential features.
-
-          To address these issues, I developed a solution based on Generative Adversarial Networks (GANs), specifically using CycleGAN and CamStyle architectures. These models perform image-to-image translation, producing synthetic images that adapt to different camera styles without altering individual identity. The process enriches the training dataset with varied representations, allowing re-identification models to generalize across unseen camera conditions. Experimental results indicate that this approach improves model robustness and reduces sensitivity to cross-camera variations, advancing the field of domain generalization in re-identification tasks.
-
+                  <p>To address these issues, I developed a solution based on Generative Adversarial Networks (GANs), specifically using CycleGAN and CamStyle architectures. These models perform image-to-image translation, producing synthetic images that adapt to different camera styles without altering individual identity. The process enriches the training dataset with varied representations, allowing re-identification models to generalize across unseen camera conditions. Experimental results indicate that this approach improves model robustness and reduces sensitivity to cross-camera variations, advancing the field of domain generalization in re-identification tasks. </p>
+                </div>
+          </div>
       - layout: top-middle
         title: NBA2K Dataset Analysis
         link: https://github.com/lorenzoleuzzi1/unipi/blob/main/erasmus_madrid/datamining-report.pdf
@@ -145,8 +147,8 @@ content:
           In this project, the NBA2K dataset was analyzed to explore the relationships between in-game player ratings and real-life NBA statistics. Using data from several NBA seasons, the analysis aimed to understand how NBA2K ratings correlate with actual player performance, focusing on key metrics like points, rebounds, assists, and defensive stats. The project included descriptive, diagnostic, and predictive analyses, culminating in the development of models to forecast NBA2K ratings based on player statistics. Techniques such as clustering, linear regression, and decision trees were applied to identify patterns in player performance, team strength, and player archetypes. This project provides valuable insights for applications in player scouting, game development, and data-driven decision-making in sports analytics.
 
           <div style="overflow: auto;">
-              <img src="images/nba2.png" alt="nba2" style="width:45%; max-width:400px; margin: 10px; float: left;">
-              <img src="images/nba1.png" alt="nba1" style="width:45%; max-width:400px; margin: 10px; float: left;">
+              <img src="images/nba2.png" alt="nba2" style="width:35%; max-width:400px; margin: 15px; float: center;">
+              <img src="images/nba1.png" alt="nba1" style="width:60%; max-width:400px; margin: 15px; float: center;">
           </div>
       
       - layout: top-middle
