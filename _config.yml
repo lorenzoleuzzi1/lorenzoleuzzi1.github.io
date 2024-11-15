@@ -100,7 +100,7 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: center; gap: 20px;">
-              <img src="images/hlt.png" alt="LLM" style="width:30%; max-width: 500px; margin: 15px;">
+              <img src="images/hlt.png" alt="LLM" style="width:30%; max-width: 600px; margin: 15px;">
               <div>
                   <p>In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.</p>
 
@@ -165,11 +165,14 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/fw.png" alt="fw" style="width:50%; max-width:400px; margin: 10px; float: left;">
+          <div style="display: flex; align-items: center; gap: 20px;">   
+            <img src="images/fw.png" alt="fw" style="width:50%; max-width:400px; margin: 10px; float: left;">
+            <div>
+              <p>This project explores an application of Frank-Wolfe-based algorithms to solve the convex quadratic knapsack problem—a constrained optimization challenge. The problem involves minimizing a quadratic objective function under box constraints and an inequality constraint, representing real-world limitations like resource allocation and budget constraints. By leveraging the Frank-Wolfe algorithm and its advanced variants, such as Away-Step and Pairwise Frank-Wolfe, this work develops efficient iterative methods that maintain computational feasibility in high-dimensional spaces. </p>
 
-          This project explores an application of Frank-Wolfe-based algorithms to solve the convex quadratic knapsack problem—a constrained optimization challenge. The problem involves minimizing a quadratic objective function under box constraints and an inequality constraint, representing real-world limitations like resource allocation and budget constraints. By leveraging the Frank-Wolfe algorithm and its advanced variants, such as Away-Step and Pairwise Frank-Wolfe, this work develops efficient iterative methods that maintain computational feasibility in high-dimensional spaces.
-
-          Through experimental evaluations, the advanced version of the algorithm demonstrates enhanced efficiency across various matrix sizes, density levels, and constraint settings, showcasing its robustness in optimizing complex convex problems and consistently achieving accelerated sublinear convergence rates in real-world scenarios.
+              <p>Through experimental evaluations, the advanced version of the algorithm demonstrates enhanced efficiency across various matrix sizes, density levels, and constraint settings, showcasing its robustness in optimizing complex convex problems and consistently achieving accelerated sublinear convergence rates in real-world scenarios. </p>
+            </div>
+          </div>
 
       - layout: top-middle
         title: Neural Network from Scratch
@@ -185,10 +188,13 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/ml.png" alt="ml" style="width:50%; max-width:400px; margin: 10px; float: left;">
-
-          This project focused on designing a neural network model from scratch as a foundational library to solve complex tasks in the ML class competition. We implemented a fully connected, feed-forward neural network, developing core components such as various Gradient Descent algorithms, loss functions, activation functions, and learning rate schedules. Through a detailed hyperparameter tuning process using coarse-to-fine grid searches and k-fold cross-validation, we optimized the model’s performance. The final solution was an ensemble of the ten best-performing configurations, achieving enhanced accuracy and generalization across classification and regression tasks. This project underscored the principles of neural network architecture, model selection, and ensemble learning for robust machine learning applications.
-
+          <div style="display: flex; align-items: center; gap: 20px;">   
+            <img src="images/ml.png" alt="ml" style="width:50%; max-width:400px; margin: 10px; float: left;">
+            <div>
+              <p> This project focused on designing a neural network model from scratch as a foundational library to solve complex tasks in the ML class competition. We implemented a fully connected, feed-forward neural network, developing core components such as various Gradient Descent algorithms, loss functions, activation functions, and learning rate schedules. Through a detailed hyperparameter tuning process using coarse-to-fine grid searches and k-fold cross-validation, we optimized the model’s performance. The final solution was an ensemble of the ten best-performing configurations, achieving enhanced accuracy and generalization across classification and regression tasks. This project underscored the principles of neural network architecture, model selection, and ensemble learning for robust machine learning applications. </p>
+            </div>
+          </div>
+      
       - layout: top-middle
         title: Model-Agnostic Meta-Learning for Reinforcement Learning
         link: https://github.com/lorenzoleuzzi1/maml_rl
@@ -203,10 +209,13 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/maml.png" alt="maml" style="width:50%; max-width:400px; margin: 10px; float: left;">
-
-          This project implements Model-Agnostic Meta-Learning (MAML) for Reinforcement Learning (RL), designed to enable rapid adaptation to new tasks with minimal training data. MAML’s meta-learning approach is particularly suited for reinforcement learning, as it allows agents to quickly adjust to changing environments. Using the vanilla policy gradient method (REINFORCE) as the base algorithm, we applied MAML to three control task environments: CartPole, Acrobot, and Highway.
-
+          <div style="display: flex; align-items: center; gap: 20px;">   
+            <img src="images/maml.png" alt="maml" style="width:50%; max-width:400px; margin: 10px; float: left;">
+            <div>
+              This project implements Model-Agnostic Meta-Learning (MAML) for Reinforcement Learning (RL), designed to enable rapid adaptation to new tasks with minimal training data. MAML’s meta-learning approach is particularly suited for reinforcement learning, as it allows agents to quickly adjust to changing environments. Using the vanilla policy gradient method (REINFORCE) as the base algorithm, we applied MAML to three control task environments: CartPole, Acrobot, and Highway. </p>
+            </div>
+          </div>
+      
       - layout: top-middle
         title: Library System for Local High School
         link: https://github.com/lorenzoleuzzi1/libreria_comodato_d_uso
@@ -221,10 +230,13 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/lib.png" alt="lib" style="width:50%; max-width:400px; margin: 10px; float: left;">
-
-          This project involved designing and implementing a custom library management system for a local high school with over 500 students. By carefully understanding the school's specific needs, I developed a tailored solution that streamlined book tracking, lending, and inventory management.
-
+          <div style="display: flex; align-items: center; gap: 20px;">  
+            <img src="images/lib.png" alt="lib" style="width:50%; max-width:300px; margin: 10px; float: left;">
+            <div>
+              <p> This project involved designing and implementing a custom library management system for a local high school with over 500 students. By carefully understanding the school's specific needs, I developed a tailored solution that streamlined book tracking, lending, and inventory management. </p>
+            </div>
+          </div>
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
