@@ -49,7 +49,7 @@ about_title: About Me
 # about_profile_image: images/io.jpeg
 about_content: | # this will include new lines to allow paragraphs
   <div style="display: flex; align-items: center; gap: 30px;">
-      <img src="images/io.jpeg" alt="Profile Image" style="width: 350px; height: 350px; border-radius: 50%; object-fit: cover; margin:20px">
+      <img src="images/io.jpeg" alt="Profile Image" style="width: 230px; height: 230px; border-radius: 20%; object-fit: cover; margin:20px">
       <div>
           <p>Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning, and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.</p>
       </div>
