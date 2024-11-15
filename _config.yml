@@ -48,10 +48,11 @@ linkedin_username: lorenzo-leuzzi-8415432b4
 about_title: About Me
 about_profile_image: images/io.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  
-  
-  Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.
-
+  <div style="display: flex; align-items: center; gap: 20px;">
+      <div>
+        Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.
+      </div>
+  </div>
 
 content:
   - title: Projects # Title for the section
@@ -210,9 +211,9 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: center; gap: 20px;">   
-            <img src="images/maml.png" alt="maml" style="width:50%; max-width:400px; margin: 10px; float: left;">
+            <img src="images/maml.png" alt="maml" style="width:50%; max-width:300px; margin: 10px; float: left;">
             <div>
-              This project implements Model-Agnostic Meta-Learning (MAML) for Reinforcement Learning (RL), designed to enable rapid adaptation to new tasks with minimal training data. MAML’s meta-learning approach is particularly suited for reinforcement learning, as it allows agents to quickly adjust to changing environments. Using the vanilla policy gradient method (REINFORCE) as the base algorithm, we applied MAML to three control task environments: CartPole, Acrobot, and Highway. </p>
+              <p>This project implements Model-Agnostic Meta-Learning (MAML) for Reinforcement Learning (RL), designed to enable rapid adaptation to new tasks with minimal training data. MAML’s meta-learning approach is particularly suited for reinforcement learning, as it allows agents to quickly adjust to changing environments. Using the vanilla policy gradient method (REINFORCE) as the base algorithm, we applied MAML to three control task environments: CartPole, Acrobot, and Highway.</p>
             </div>
           </div>
       
@@ -231,12 +232,12 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: center; gap: 20px;">  
-            <img src="images/lib.png" alt="lib" style="width:50%; max-width:300px; margin: 10px; float: left;">
+            <img src="images/lib.png" alt="lib" style="width:50%; max-width:400px; margin: 10px; float: left;">
             <div>
               <p> This project involved designing and implementing a custom library management system for a local high school with over 500 students. By carefully understanding the school's specific needs, I developed a tailored solution that streamlined book tracking, lending, and inventory management. </p>
             </div>
           </div>
-          
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
