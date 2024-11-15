@@ -96,11 +96,14 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/hlt.png" alt="LLM" style="width:60%; max-width:400px; margin: 10px; float: left;">
+          <div style="display: flex; align-items: center; gap: 20px;">
+              <img src="images/hlt.png" alt="LLM" style="width:60%; max-width:400px; margin: 10px;">
+              <div>
+                  <p>In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.</p>
 
-          In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.
-
-          BERT-family models were enhanced by integrating lexical features and demographic data of the essay writers, as well as using Masked Language Modeling to improve sequence classification. This iterative, multi-model approach allowed our system to effectively capture nuanced emotional and empathetic content, achieving competitive results in empathy and emotion prediction.
+                  <p>BERT-family models were enhanced by integrating lexical features and demographic data of the essay writers, as well as using Masked Language Modeling to improve sequence classification. This iterative, multi-model approach allowed our system to effectively capture nuanced emotional and empathetic content, achieving competitive results in empathy and emotion prediction.</p>
+              </div>
+          </div>
 
       - layout: top-middle
         title: An Approach to Domain Generalization in the Field of Re-Identification
