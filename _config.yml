@@ -100,7 +100,7 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: center; gap: 20px;">
-              <img src="images/hlt.png" alt="LLM" style="width:65%; max-width:400px; margin: 15px;">
+              <img src="images/hlt.png" alt="LLM" style="width:30%; max-width: 500px; margin: 15px;">
               <div>
                   <p>In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.</p>
 
@@ -147,8 +147,8 @@ content:
           In this project, the NBA2K dataset was analyzed to explore the relationships between in-game player ratings and real-life NBA statistics. Using data from several NBA seasons, the analysis aimed to understand how NBA2K ratings correlate with actual player performance, focusing on key metrics like points, rebounds, assists, and defensive stats. The project included descriptive, diagnostic, and predictive analyses, culminating in the development of models to forecast NBA2K ratings based on player statistics. Techniques such as clustering, linear regression, and decision trees were applied to identify patterns in player performance, team strength, and player archetypes. This project provides valuable insights for applications in player scouting, game development, and data-driven decision-making in sports analytics.
 
           <div style="display: flex; justify-content: center; gap: 15px; overflow: auto;">
-              <img src="images/nba2.png" alt="nba2" style="width:30%; margin: 15px; float: center;">
-              <img src="images/nba1.png" alt="nba1" style="width:80%; margin: 15px; float: center;">
+              <img src="images/nba2.png" alt="nba2" style="width:30%; max-width: 300px; margin: 15px; float: center;">
+              <img src="images/nba1.png" alt="nba1" style="width:30%; max-width: 500px; margin: 15px; float: center;">
           </div>
       
       - layout: top-middle
