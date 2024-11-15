@@ -71,13 +71,16 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <img src="images/les_framework.png" alt="Lifelong Evolutionary Swarms" style="width:50%; max-width:400px; margin: 10px; float: left;">
+          <div style="display: flex; align-items: center; gap: 20px;">
+              <img src="images/les_framework.png" alt="Lifelong Evolutionary Swarms" style="width:50%; max-width:400px; margin: 10px;">
+              <div>
+                  <p>This project explores the integration of lifelong learning into swarm intelligence—an AI approach inspired by the collective behaviors of social insects like ants and bees. Swarm intelligence enables simple, autonomous agents to perform complex tasks together without centralized control, making it ideal for applications like robotic exploration and environmental monitoring.</p>
 
-          This project explores the integration of lifelong learning into swarm intelligence—an AI approach inspired by the collective behaviors of social insects like ants and bees. Swarm intelligence enables simple, autonomous agents to perform complex tasks together without centralized control, making it ideal for applications like robotic exploration and environmental monitoring.
+                  <p>To build adaptive, resilient swarms, we apply evolutionary algorithms that simulate natural selection, allowing agents to iteratively refine behaviors and improve their performance in dynamic environments. However, to fully adapt to changing conditions, these systems must also retain knowledge over time—an aspect known as lifelong learning. This project focuses on developing techniques that allow swarms to learn continuously and adapt to new tasks without "forgetting" previous knowledge.</p>
 
-          To build adaptive, resilient swarms, we apply evolutionary algorithms that simulate natural selection, allowing agents to iteratively refine behaviors and improve their performance in dynamic environments. However, to fully adapt to changing conditions, these systems must also retain knowledge over time—an aspect known as lifelong learning. This project focuses on developing techniques that allow swarms to learn continuously and adapt to new tasks without "forgetting" previous knowledge.
-
-          Our research investigates the use of regularization techniques within evolutionary algorithms to balance the acquisition of new knowledge with the retention of past skills. By simulating various environmental conditions, we assess the effectiveness of these lifelong learning strategies in enabling swarms to carry out foraging tasks while maintaining adaptability. These findings push the boundaries of autonomous, adaptable AI, paving the way for robust multi-agent systems capable of long-term functionality in ever-changing environments.
+                  <p>Our research investigates the use of regularization techniques within evolutionary algorithms to balance the acquisition of new knowledge with the retention of past skills. By simulating various environmental conditions, we assess the effectiveness of these lifelong learning strategies in enabling swarms to carry out foraging tasks while maintaining adaptability. These findings push the boundaries of autonomous, adaptable AI, paving the way for robust multi-agent systems capable of long-term functionality in ever-changing environments.</p>
+              </div>
+          </div>
 
         # add image to the project
         # image: images/les_framework.png
@@ -97,7 +100,7 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           <div style="display: flex; align-items: center; gap: 20px;">
-              <img src="images/hlt.png" alt="LLM" style="width:60%; max-width:400px; margin: 10px;">
+              <img src="images/hlt.png" alt="LLM" style="width:65%; max-width:400px; margin: 15px;">
               <div>
                   <p>In this project, we participated in the WASSA 2023 Shared Task, focusing on Empathy Detection, Emotion Classification, and Personality Detection. Our approach used advanced natural language processing (NLP) techniques with transformer-based models, specifically RoBERTa, to detect empathy levels and classify emotions in text responses to news articles.</p>
 
