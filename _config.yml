@@ -46,11 +46,14 @@ linkedin_username: lorenzo-leuzzi-8415432b4
 
 # About Section
 about_title: About Me
-about_profile_image: images/io.jpeg
+# about_profile_image: images/io.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  <br>
-  Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.</p>
-
+  <div style="display: flex; align-items: center; gap: 20px;">
+      <img src="images/io.jpeg" alt="Profile Image" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+      <div>
+          Hi, I'm Lorenzo Leuzzi, a Computer Science graduate specializing in Artificial Intelligence. With hands-on experience in deep learning, robotics, and data analysis, I’m passionate about applying AI to solve real-world challenges. My work spans research in machine learning, deep learning, continual learning, and collective intelligence. I’m always looking for exciting opportunities abroad to expand my skills and gain new perspectives. Explore my projects to see how I combine technical skills with research and creative problem-solving.
+      </div>
+  </div>
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
